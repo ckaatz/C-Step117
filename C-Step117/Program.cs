@@ -26,5 +26,27 @@ namespace C_Step117
         {
             Num2 = Num1 / 2;
         }
+
+        //method with output parameters:
+        public void AddOne(int Num1, out int Num2, out int Num3)
+        {
+            Num2 = Num1 + 1;
+            Num3 = Num2 + 1;
+        }
+
+        //overloaded methods:
+        public int TimesOne(int Num1)
+        {
+            return Num1 * 1;
+        }
+        public decimal TimesOne(decimal Num1)
+        {
+            return Num1 * 1;
+        }
+    }
+    //Static class:
+    public static class NewClass
+    {
+
     }
 }
